@@ -1,16 +1,33 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Card : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
+namespace Cards{
+    [CreateAssetMenu(fileName = "New Card", menuName = "Card")]
+    public class Card: ScriptableObject {
+        public string cardName;
+        public List<CardType> cardType;
+        public int health;
+        public int damegeMin; 
+        public int damegeMax; 
+        public List<DamageType> damageType;
+        public  enum CardType{
+            Fire,
+            Earth,
+            Water,
+            Dark,
+            Light,
+            Air
+        }
+        public  enum DamageType{
+            Fire,
+            Earth,
+            Water,
+            Dark,
+            Light,
+            Air
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

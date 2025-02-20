@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb0d58bb8a665d108ac9613f55fafb6, type: 3}
+  m_Name: EsqueletoMel
+  m_EditorClassIdentifier: 
+  cardName: EsqueletoMel
+  cardColor: {r: 0, g: 0.39215687, b: 0, a: 1}
+  health: 1
+  damage: 1
+  cardType: 03000000
+  cardEfects: 0100000003000000
+  cardEfectsIds: 0100000003000000
+  price: 000000000000000000000000010000000000000001000000
+  efectText: "Recupere 5 de vida\\n\\n0 emo\xE7\xE3o: sacrifique um espirito, ganhe
+    1 gratid\xE3o usada."
+  cardSprite: {fileID: 21300000, guid: 41e5c1a12b3c9f876ab881197610660b, type: 3}
